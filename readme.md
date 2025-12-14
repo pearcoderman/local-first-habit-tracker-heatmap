@@ -34,7 +34,8 @@ It’s intentionally small, readable, and easy to extend.
 
 ## Screenshot
 
-> (Add a simple screenshot or GIF of the heatmap filling in over time)
+> ![CleanShot 2025-12-14 at 15 29 47@2x](https://github.com/user-attachments/assets/b54714be-b845-45f3-b5ef-69267e05397d)
+
 
 ---
 

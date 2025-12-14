@@ -13,8 +13,13 @@ function renderHeatmap(data) {
 
     const cell = document.createElement("div");
     cell.className = "cell level-" + Math.min(value, 4);
-    cell.title = key + " – " + value;
 
+    const tooltip = document.createElement("div");
+    tooltip.className = "tooltip";
+    tooltip.textContent = `${key} – ${value}`;
+
+    cell.appendChild(tooltip);
     el.appendChild(cell);
+
   }
 }

@@ -28,9 +28,31 @@ header {
   aspect-ratio: 1;
   background: #1e293b;
   border-radius: 3px;
+  position: relative;
 }
 
 .cell.level-1 { background: #22c55e; }
 .cell.level-2 { background: #16a34a; }
 .cell.level-3 { background: #15803d; }
 .cell.level-4 { background: #14532d; }
+
+.tooltip {
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #020617;
+  color: #e5e7eb;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+  z-index: 10;
+}
+
+.cell:hover .tooltip {
+  opacity: 1;
+}

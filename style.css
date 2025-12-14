@@ -70,3 +70,8 @@ header {
   width: 12px;
   height: 12px;
 }
+
+.streak {
+  font-size: 14px;
+  opacity: 0.85;
+}
